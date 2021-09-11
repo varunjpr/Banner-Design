@@ -1,0 +1,272 @@
+body {
+  background-color: #303e47;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+nav {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo__left > img {
+  width: 40px;
+}
+.logo__left {
+  margin: 20px 20px 0 0;
+}
+.heading > h1 {
+  font-size: 50px;
+  color: #f95c5a;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.heading > p {
+  margin-top: -50px;
+  color: white;
+  font-size: 15px;
+}
+.section1 {
+  width: 90%;
+  height: 20%;
+  background-color: #fd9f1c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: azure;
+}
+.section__left {
+  width: 50%;
+  text-align: center;
+}
+.section__right {
+  width: 50%;
+  background-color: #00b3e4;
+  text-align: center;
+  /* background: #000; */
+}
+.s1m {
+  margin-top: 20px;
+  font-size: 50px;
+  margin-right: 5px;
+  color: black;
+}
+.s1mred {
+  margin-top: 20px;
+  font-size: 50px;
+  margin-right: 5px;
+  color: #ff5959;
+}
+.section__right > h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  /* text-align: center; */
+  margin-left: -10px;
+}
+
+.section__right > p > span {
+  font-size: 30px;
+  font-weight: 900;
+}
+.s1icon {
+  color: black;
+}
+.people {
+  margin-top: -60px;
+  margin-left: 70px;
+}
+.childrens {
+  margin-top: -40px;
+  font-size: 20px;
+}
+.section2 {
+  width: 90%;
+  height: 10%;
+  background-color: #ff5959;
+  margin: 10px auto;
+  /* text-align: start; */
+}
+.s2head {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: azure;
+}
+.icons {
+  /* background-color: #fd9f1c; */
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: black;
+}
+.s2_txt {
+  color: azure;
+  font-size: 20px;
+  margin-top: -20px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  /* border: 2px solid rebeccapurple; */
+}
+.Text {
+  font-size: 10px;
+}
+.icons > i {
+  font-size: 30px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: row;
+  background-color: #00b3e4;
+  width: 90%;
+  height: 10%;
+  margin: 10px auto;
+  color: azure;
+}
+.s3left_Section {
+  text-align: left;
+  width: 50%;
+  font-size: 20px;
+  word-spacing: 5px;
+  margin-left: 30px;
+}
+.s3left_Section > h2 > i {
+  color: black;
+}
+.s3right_section {
+  text-align: left;
+  width: 50%;
+  font-size: 20px;
+  word-spacing: 5px;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+.section4 {
+  width: 90%;
+  height: 20%;
+  background-color: #ff5959;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: azure;
+}
+.section4__left {
+  width: 50%;
+  text-align: center;
+}
+.section4__left > p {
+  font-size: 20px;
+}
+.percentage {
+  font-size: 50px;
+  font-weight: 800;
+}
+.section4__left > i {
+  font-size: 40px;
+  color: #fb9f20;
+}
+.section4__right {
+  width: 50%;
+  background-color: #ff9e1b;
+  text-align: center;
+}
+.section4__right > i {
+  font-size: 50px;
+  margin-top: 20px;
+  color: #ff5959;
+}
+.section4__right > p {
+  margin-top: -5px;
+}
+.section5 {
+  width: 90%;
+  background-color: #00b3e4;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.s5_head > h1 {
+  font-size: 40px;
+  word-spacing: 10px;
+  font-weight: 900;
+  color: azure;
+}
+.s5_head > p {
+  color: azure;
+}
+.s5icon > i {
+  color: black;
+  font-size: 70px;
+}
+.section6 {
+  width: 90%;
+  background-color: #fd9e20;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.s6_head > h1 {
+  font-size: 40px;
+  word-spacing: 10px;
+  font-weight: 900;
+  color: azure;
+}
+.s6_head > p {
+  color: azure;
+}
+.s6icon > i {
+  color: #fd575a;
+  font-size: 70px;
+}
+.section7 {
+  width: 90%;
+  height: 20%;
+  background-color: #00b3e4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: azure;
+  margin-bottom: 40px;
+}
+.section7__left {
+  width: 50%;
+  text-align: center;
+}
+.section7__left > span {
+  font-size: 25px;
+}
+.section7__left > h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: -5px;
+}
+.section7__left > i {
+  font-size: 50px;
+  color: black;
+  margin-top: 20px;
+}
+.section7__right {
+  width: 50%;
+  background-color: #fd575a;
+  text-align: center;
+}
+.section7__right > h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.section7__right > p {
+  margin-top: 55px;
+  font-size: 20px;
+  word-spacing: 5px;
+}
